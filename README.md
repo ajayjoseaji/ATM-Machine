@@ -1,4 +1,4 @@
 # ATM-Machine
 user interface for atm machine
-# how it is made?
+# How it is made ?
 made using react
