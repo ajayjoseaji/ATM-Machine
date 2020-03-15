@@ -1,7 +1,30 @@
 <html>
+    <head>
+        <title>Atm machine</title>
+        <link rel="shortcut icon" type="image/png" href="data:image/png;base64,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"/>
+        <style>
+            .blue-background{
+                background-color: #004e95;
+            }
+            .white-text {
+                color: white;
+            }
+            .yellow-border {
+                border-bottom:solid 8px #faa519;
+            }
+            .banklogo{
+                margin: 10px;
+                height: 25px;
+            }
+            body, h1 {
+                margin: 0px;
+            }
+        </style>
+    </head>
     <body>
-        <h1>Federal bank</h1>
-        <p>your perfect banking partner</p>
+        <div class="blue-background yellow-border">
+            <img src="banklogo.png" alt="Federal bank" class="banklogo"> 
+        </div>
         <button>Withdraw</button>
         <button>Check balance</button>
         <button>Send money</button>
